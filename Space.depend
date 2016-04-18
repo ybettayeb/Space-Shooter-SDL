@@ -1,0 +1,723 @@
+# depslib dependency file v1.0
+1458897772 source:k:\space pré-alpha v2\mouvements.cpp
+	<SDL.h>
+	"Mobile.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326114588 c:\program files\codeblocks\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_platform.h
+
+1326114594 c:\program files\codeblocks\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326114600 c:\program files\codeblocks\sdl-1.2.15\include\begin_code.h
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\close_code.h
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_keysym.h
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\program files\codeblocks\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1458895658 k:\space pré-alpha v2\mobile.h
+
+1458897526 source:k:\space pré-alpha v2\main.cpp
+	<stdlib.h>
+	<SDL.h>
+	<math.h>
+	"ModeGraphique.h"
+	"Mobile.h"
+	"Mouvements.h"
+
+1455867840 k:\space pré-alpha v2\modegraphique.h
+	<SDL.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1458287032 k:\space pré-alpha v2\parametres_graphiques.h
+
+1458897536 k:\space pré-alpha v2\mouvements.h
+	<SDL.h>
+	"Mobile.h"
+
+1455737244 source:k:\space pré-alpha v2\modegraphique.cpp
+	<SDL.h>
+	<math.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1458937374 source:r:\exposé technologie\2012\space pré-alpha v2\main.cpp
+	<stdlib.h>
+	<SDL.h>
+	<math.h>
+	"ModeGraphique.h"
+	"Mobile.h"
+	"Mouvements.h"
+
+1455867840 r:\exposé technologie\2012\space pré-alpha v2\modegraphique.h
+	<SDL.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1458287032 r:\exposé technologie\2012\space pré-alpha v2\parametres_graphiques.h
+
+1458895658 r:\exposé technologie\2012\space pré-alpha v2\mobile.h
+
+1458897536 r:\exposé technologie\2012\space pré-alpha v2\mouvements.h
+	<SDL.h>
+	"Mobile.h"
+
+1455737244 source:r:\exposé technologie\2012\space pré-alpha v2\modegraphique.cpp
+	<SDL.h>
+	<math.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1458937860 source:r:\exposé technologie\2012\space pré-alpha v2\mouvements.cpp
+	<SDL.h>
+	"Mobile.h"
+
+1459496993 source:o:\exposé technologie\2012\space pré-alpha v2\mouvements.cpp
+	<SDL.h>
+	"Mobile.h"
+
+1458899258 o:\exposé technologie\2012\space pré-alpha v2\mobile.h
+
+1459497041 source:o:\exposé technologie\2012\space pré-alpha v2\main.cpp
+	<stdlib.h>
+	<SDL.h>
+	<math.h>
+	"ModeGraphique.h"
+	"Mobile.h"
+	"Mouvements.h"
+
+1455871440 o:\exposé technologie\2012\space pré-alpha v2\modegraphique.h
+	<SDL.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1458290632 o:\exposé technologie\2012\space pré-alpha v2\parametres_graphiques.h
+
+1458901136 o:\exposé technologie\2012\space pré-alpha v2\mouvements.h
+	<SDL.h>
+	"Mobile.h"
+
+1455740844 source:o:\exposé technologie\2012\space pré-alpha v2\modegraphique.cpp
+	<SDL.h>
+	<math.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1459498661 source:o:\exposé technologie\2012\space nicolas\mouvements.cpp
+	<SDL.h>
+	"Mobile.h"
+
+1459498876 o:\exposé technologie\2012\space nicolas\mobile.h
+
+1459498781 source:o:\exposé technologie\2012\space nicolas\main.cpp
+	<stdlib.h>
+	<SDL.h>
+	<math.h>
+	"ModeGraphique.h"
+	"Mobile.h"
+	"Mouvements.h"
+
+1459498812 o:\exposé technologie\2012\space nicolas\modegraphique.h
+	<SDL.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1458290632 o:\exposé technologie\2012\space nicolas\parametres_graphiques.h
+
+1459498578 o:\exposé technologie\2012\space nicolas\mouvements.h
+	<SDL.h>
+	"Mobile.h"
+
+1459498729 source:o:\exposé technologie\2012\space nicolas\modegraphique.cpp
+	<SDL.h>
+	<math.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1459538834 source:r:\exposé technologie\2012\space nicolas\modegraphique.cpp
+	<SDL.h>
+	<math.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1459537289 r:\exposé technologie\2012\space nicolas\parametres_graphiques.h
+
+1459538834 r:\exposé technologie\2012\space nicolas\mobile.h
+
+1459538834 source:r:\exposé technologie\2012\space nicolas\mouvements.cpp
+	<SDL.h>
+	"Mobile.h"
+
+1459538882 source:r:\exposé technologie\2012\space nicolas\main.cpp
+	<stdlib.h>
+	<SDL.h>
+	<math.h>
+	"ModeGraphique.h"
+	"Mobile.h"
+	"Mouvements.h"
+
+1459538904 r:\exposé technologie\2012\space nicolas\modegraphique.h
+	<SDL.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1459538834 r:\exposé technologie\2012\space nicolas\mouvements.h
+	<SDL.h>
+	"Mobile.h"
+
+1460059213 source:g:\lycée\space nicolas\main.cpp
+	<stdlib.h>
+	<SDL.h>
+	<math.h>
+	"ModeGraphique.h"
+	"Mobile.h"
+	"Mouvements.h"
+
+1459538904 g:\lycée\space nicolas\modegraphique.h
+	<SDL.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1459537289 g:\lycée\space nicolas\parametres_graphiques.h
+
+1459610388 g:\lycée\space nicolas\mobile.h
+
+1459610388 g:\lycée\space nicolas\mouvements.h
+	<SDL.h>
+	"Mobile.h"
+
+1459538834 source:g:\lycée\space nicolas\modegraphique.cpp
+	<SDL.h>
+	<math.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1460059363 source:g:\lycée\space nicolas\mouvements.cpp
+	<SDL.h>
+	"Mobile.h"
+
+1460055931 source:o:\space nicolas\mouvements.cpp
+	<SDL.h>
+	"Mobile.h"
+
+1459606788 o:\space nicolas\mobile.h
+
+1460055613 source:o:\space nicolas\main.cpp
+	<stdlib.h>
+	<SDL.h>
+	<math.h>
+	"ModeGraphique.h"
+	"Mobile.h"
+	"Mouvements.h"
+
+1459535304 o:\space nicolas\modegraphique.h
+	<SDL.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1459533689 o:\space nicolas\parametres_graphiques.h
+
+1459606788 o:\space nicolas\mouvements.h
+	<SDL.h>
+	"Mobile.h"
+
+1459535234 source:o:\space nicolas\modegraphique.cpp
+	<SDL.h>
+	<math.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1460103255 source:k:\space nicolas\mouvements.cpp
+	<SDL.h>
+	"Mobile.h"
+
+1459606788 k:\space nicolas\mobile.h
+
+1460055613 source:k:\space nicolas\main.cpp
+	<stdlib.h>
+	<SDL.h>
+	<math.h>
+	"ModeGraphique.h"
+	"Mobile.h"
+	"Mouvements.h"
+
+1459535304 k:\space nicolas\modegraphique.h
+	<SDL.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1459533689 k:\space nicolas\parametres_graphiques.h
+
+1459606788 k:\space nicolas\mouvements.h
+	<SDL.h>
+	"Mobile.h"
+
+1459535234 source:k:\space nicolas\modegraphique.cpp
+	<SDL.h>
+	<math.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1460660282 source:g:\lycée\space nicolas v2\main.cpp
+	<stdlib.h>
+	<SDL.h>
+	<math.h>
+	"ModeGraphique.h"
+	"Mobile.h"
+	"Mouvements.h"
+
+1459538904 g:\lycée\space nicolas v2\modegraphique.h
+	<SDL.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1459537289 g:\lycée\space nicolas v2\parametres_graphiques.h
+
+1459610388 g:\lycée\space nicolas v2\mobile.h
+
+1459610388 g:\lycée\space nicolas v2\mouvements.h
+	<SDL.h>
+	"Mobile.h"
+
+1459538834 source:g:\lycée\space nicolas v2\modegraphique.cpp
+	<SDL.h>
+	<math.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1460659998 source:g:\lycée\space nicolas v2\mouvements.cpp
+	<SDL.h>
+	"Mobile.h"
+
+1460660282 source:c:\users\youss\desktop\space nicolas v2\main.cpp
+	<stdlib.h>
+	<SDL.h>
+	<math.h>
+	"ModeGraphique.h"
+	"Mobile.h"
+	"Mouvements.h"
+
+1459538904 c:\users\youss\desktop\space nicolas v2\modegraphique.h
+	<SDL.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1459537289 c:\users\youss\desktop\space nicolas v2\parametres_graphiques.h
+
+1459610388 c:\users\youss\desktop\space nicolas v2\mobile.h
+
+1459610388 c:\users\youss\desktop\space nicolas v2\mouvements.h
+	<SDL.h>
+	"Mobile.h"
+
+1459538834 source:c:\users\youss\desktop\space nicolas v2\modegraphique.cpp
+	<SDL.h>
+	<math.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1460659998 source:c:\users\youss\desktop\space nicolas v2\mouvements.cpp
+	<SDL.h>
+	"Mobile.h"
+
+1460708691 source:c:\users\youss\desktop\projet isn\main.cpp
+	<stdlib.h>
+	<SDL.h>
+	<math.h>
+	"ModeGraphique.h"
+	"Mobile.h"
+	"Mouvements.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326118188 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_platform.h
+
+1326118194 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326118200 c:\program files (x86)\codeblocks\sdl-1.2.15\include\begin_code.h
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\close_code.h
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_keysym.h
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325745840 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1459538904 c:\users\youss\desktop\projet isn\modegraphique.h
+	<SDL.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1459537289 c:\users\youss\desktop\projet isn\parametres_graphiques.h
+
+1459610388 c:\users\youss\desktop\projet isn\mobile.h
+
+1459610388 c:\users\youss\desktop\projet isn\mouvements.h
+	<SDL.h>
+	"Mobile.h"
+
+1459538834 source:c:\users\youss\desktop\projet isn\modegraphique.cpp
+	<SDL.h>
+	<math.h>
+	"parametres_graphiques.h"
+	"Mobile.h"
+
+1460711196 source:c:\users\youss\desktop\projet isn\mouvements.cpp
+	<SDL.h>
+	"Mobile.h"
+	<math.h>
+
