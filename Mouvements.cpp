@@ -206,17 +206,17 @@ SDL_Event event;
 }
 
 if ( ALIEN1.y >= 740) {
-    ALIEN1.y = -25;
-    ALIEN1.x = rand() % (Max  -Min) + Min;
+     ALIEN1.y = -25;
+     ALIEN1.x = rand() % (Max  -Min) + Min;
     }
 if ( ALIEN2.y >= 740) {
-    ALIEN2.y = -50;
-    ALIEN2.x = rand() % (Max  -Min) + Min;
+     ALIEN2.y = -50;
+     ALIEN2.x = rand() % (Max  -Min) + Min;
     }
 
 if ( ALIEN3.y >= 740) {
-    ALIEN3.y = -45;
-    ALIEN3.x = rand() % (Max  -Min) + Min;
+     ALIEN3.y = -45;
+     ALIEN3.x = rand() % (Max  -Min) + Min;
     }
 
 if( ALIEN4.y >= 740) {
