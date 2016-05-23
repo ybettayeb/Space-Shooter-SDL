@@ -79,14 +79,14 @@ void Gestion_Mvt(void)
 {
 SDL_Event event;
 
-    while (SDL_PollEvent(&event))   // On boucle tant qu'il reste des événements à gérer
+    while (SDL_PollEvent(&event))   // On boucle tant qu'il reste des Ã©vÃ©nements Ã  gÃ©rer
     {
-        switch (event.type)   // Traitement selon le type d'événement
+        switch (event.type)   // Traitement selon le type d'Ã©vÃ©nement
         {
-        case SDL_KEYDOWN: // Une touche du clavier a été enfoncée
-            switch (event.key.keysym.sym)   // Traitement selon la touche appuyée
+        case SDL_KEYDOWN: // Une touche du clavier a Ã©tÃ© enfoncÃ©e
+            switch (event.key.keysym.sym)   // Traitement selon la touche appuyÃ©e
             {
-            case SDLK_RIGHT: // Flèche vers la droite
+            case SDLK_RIGHT: // FlÃ¨che vers la droite
                 vaisseau.vx = 4;
                 if (vaisseau.x > 970)
                 vaisseau.vx = 0;
@@ -94,7 +94,7 @@ SDL_Event event;
                 projectile.x = vaisseau.x;
 
                 break;
-            case SDLK_LEFT: // Flèche vers la gauche
+            case SDLK_LEFT: // FlÃ¨che vers la gauche
                 vaisseau.vx = -4;
                 if (vaisseau.x < 0)
                 vaisseau.vx = 0;
@@ -105,30 +105,30 @@ SDL_Event event;
 
                 break;
             default:
-                    // Rien à faire par défaut, mais on évite les "warnings du compilateur"
+                    // Rien Ã  faire par dÃ©faut, mais on Ã©vite les "warnings du compilateur"
                 break;
             }
             break;
-        case SDL_KEYUP: // Une touche du clavier a été relâchée
-            switch (event.key.keysym.sym)   // Traitement selon la touche appuyée
+        case SDL_KEYUP: // Une touche du clavier a Ã©tÃ© relÃ¢chÃ©e
+            switch (event.key.keysym.sym)   // Traitement selon la touche appuyÃ©e
             {
-            case SDLK_RIGHT: // Flèche vers la droite
+            case SDLK_RIGHT: // FlÃ¨che vers la droite
                 vaisseau.vx = 0;
                 break;
-            case SDLK_LEFT: // Flèche vers la gauche
+            case SDLK_LEFT: // FlÃ¨che vers la gauche
                 vaisseau.vx = 0;
                 break;
-            case SDLK_DOWN: // Flèche vers le bas
+            case SDLK_DOWN: // FlÃ¨che vers le bas
 
                 break;
 
             default:
-                // Rien à faire par défaut, mais on évite les "warnings du compilateur"
+                // Rien Ã  faire par dÃ©faut, mais on Ã©vite les "warnings du compilateur"
                 break;
             }
             break;
-        } // Fin de traitement selon le type d'événement
-    } // Fin du traitement des événements
+        } // Fin de traitement selon le type d'Ã©vÃ©nement
+    } // Fin du traitement des Ã©vÃ©nements
 
 // Gestion du mouvement de la vaisseau
 {
@@ -205,34 +205,34 @@ SDL_Event event;
 
 }
 
-if ( ALIEN1.y >= 740){
+if ( ALIEN1.y >= 740) {
     ALIEN1.y = -25;
-    ALIEN1.x =rand()%(Max  -Min)+Min;
-}
-if (ALIEN2.y >= 740){
+    ALIEN1.x = rand() % (Max  -Min) + Min;
+    }
+if ( ALIEN2.y >= 740) {
     ALIEN2.y = -50;
-    ALIEN2.x = rand()%(Max  -Min)+Min;
+    ALIEN2.x = rand() % (Max  -Min) + Min;
     }
 
-if (ALIEN3.y>= 740){
+if ( ALIEN3.y >= 740) {
     ALIEN3.y = -45;
-    ALIEN3.x = rand()%(Max  -Min)+Min;
+    ALIEN3.x = rand() % (Max  -Min) + Min;
     }
 
-if(ALIEN4.y>=740){
+if( ALIEN4.y >= 740) {
     ALIEN4.y = -70;
-    ALIEN4.x = rand()%(Max  -Min)+Min;
+    ALIEN4.x = rand() % (Max  -Min) + Min;
     }
 
-if ( ALIEN5.y >=740){
-    ALIEN5.y=-90;
-    ALIEN5.x =rand()%(Max  -Min)+Min;
+if ( ALIEN5.y >= 740) {
+     ALIEN5.y=-90;
+     ALIEN5.x =rand()%(Max  -Min) + Min;
     }
-if ( ALIEN6.y >=740){
-
-    ALIEN6.y=-178;
-    ALIEN6.x = rand()%(Max  -Min)+Min;
-}
+    
+if ( ALIEN6.y >= 740) {
+     ALIEN6.y= -178;
+     ALIEN6.x = rand() % (Max  -Min) + Min;
+    }
 
 
 
