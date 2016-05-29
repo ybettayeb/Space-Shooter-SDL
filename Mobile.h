@@ -11,10 +11,10 @@
 #define PROJECTILE_VITESSE_BASE_X        0
 #define PROJECTILE_VITESSE_BASE_Y        1
 
-#define ALIEN1_TAILLE_LARGEUR            50
-#define ALIEN1_TAILLE_HAUTEUR            50
-#define ALIEN1_VITESSE_BASE_X            1
-#define ALIEN1_VITESSE_BASE_Y            1
+#define ALIEN_TAILLE_LARGEUR            50
+#define ALIEN_TAILLE_HAUTEUR            50
+#define ALIEN_VITESSE_BASE_X            1
+#define ALIEN_VITESSE_BASE_Y            1
 
 #define ALIEN2_TAILLE_LARGEUR            50
 #define ALIEN2_TAILLE_HAUTEUR            50
@@ -45,6 +45,13 @@ typedef struct _mobile {
     float x, y;     // Coordonnées haut-gauche
     float vx, vy;   // Vitesses
 } Mobile;
+
+typedef struct _Alien {
+    float x, y;
+    float vx, vy;
+    int n;
+
+} Alien;
 
 
 

@@ -14,7 +14,7 @@ void Trace_Cercle( SDL_Surface* ecran, SDL_Rect C, int R, Couleur );
 void Dessine_Fond( SDL_Surface* ecran, SDL_Surface *fond );
 void Dessine_Vaisseau( SDL_Surface* ecran, SDL_Surface *image, Mobile);
 void Dessine_Projectile( SDL_Surface* ecran, SDL_Surface *image, Mobile);
-void Dessine_ALIEN1( SDL_Surface* ecran, SDL_Surface *image, Mobile);
+void Dessine_ALIEN( SDL_Surface* ecran, SDL_Surface *image, Alien);
 void Dessine_ALIEN2( SDL_Surface* ecran, SDL_Surface *image, Mobile);
 void Dessine_ALIEN3( SDL_Surface* ecran, SDL_Surface *image, Mobile);
 void Dessine_ALIEN4( SDL_Surface* ecran, SDL_Surface *image, Mobile);

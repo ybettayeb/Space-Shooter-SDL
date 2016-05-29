@@ -13,5 +13,6 @@ void Init_ALIEN3(void);
 void Init_ALIEN4(void);
 void Init_ALIEN5(void);
 void Init_ALIEN6(void);
+void Init_ALIEN(void);
 
 #endif // MOUVEMENTS_H
